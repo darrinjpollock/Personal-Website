@@ -1,0 +1,113 @@
+body {
+	background-color: #d3d3d3;
+}
+
+nav {
+            background-color: #333;
+        }
+        nav table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        nav td {
+            width: 25%; /* Ensure each cell takes an equal share of the table width */
+            text-align: center;
+            padding: 14px 0; /* Adjust padding to make clickable area larger */
+        }
+        nav a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 14px 16px;
+        }
+        nav a:hover {
+            background-color: #111;
+        }
+h1 {
+	font-size: 40px;
+	color: blue;
+	font-family: georgia;
+	font-weight: bold;
+	text-align: center;
+}
+
+h2 {
+	font-size: 25px;
+	color: purple;
+	font-family: georgia;
+	font-weight: bold;
+	text-align: center;
+}
+
+h3 {
+	color: #040473;
+	font-family: georgia;
+	font-weight: bold;
+}
+
+h4 {
+	color: #9932CC;
+	font-family: georgia;
+	font-weight: bold;
+}
+
+p {
+	font-family: georgia;
+	font-size: 18px;
+}
+
+ol {
+	font-family: georgia;
+}
+
+
+#problems {
+	color: red;
+	font-weight: bold;
+}
+
+#recipe {
+		background-color: #FFF0F5;
+	width: 700px;
+	  height: 225px;
+	  padding: 0;
+	  margin-left: 70px;
+	border-width: thick;
+	border-style: inset;
+	border-color: #9932CC;
+}
+
+table {
+	width: 100%;
+	border: 5px inset black;
+}
+
+th {
+	font-family: georgia;
+	font-weight: bold;
+	font-size: 20px;
+	color: #C0392B;
+}
+
+th, td {
+	border: 1px solid black;
+	text-align: center;
+}
+
+td {
+	font-size: 18px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+ul {
+	font-family: georgia;
+	font-size: 18px;
+	list-style-type: circle;
+}
+ 
